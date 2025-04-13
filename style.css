@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Baumans&display=swap');
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    margin: 0%;
+  }
+  
+  .botao{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: white;
+    color: white;
+    padding: 10px 20px;
+    transition: all 0.3s ease; /* Anima todas as propriedades */
+  }
+  
+  .botao:hover {
+    background: black;
+    transform: scale(1.05);
+  }
+
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Baumans", system-ui;
+    margin: 0%;
+    border: 0px;
+
+  }
+
+  p{
+    font-size: xx-large;
+    text-align: center;
+  }
